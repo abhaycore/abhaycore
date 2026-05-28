@@ -13,6 +13,10 @@
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=abhaycore&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+# 📈 Contribution Graph
+
+[![Abhay's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=abhaycore\&bg_color=0d1117\&color=58a6ff\&line=38bdae\&point=fafafa\&area=true\&hide_border=true)](https://github.com/abhaycore)
+
 ![](https://streak-stats.demolab.com/?user=abhaycore&theme=github_dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=abhaycore&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
