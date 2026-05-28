@@ -15,9 +15,12 @@
 ![](https://streak-stats.demolab.com/?user=abhaycore&theme=github_dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=abhaycore&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-# 🚀 All Repositories
+# 🚀 Repositories
 
-[![All Repositories](https://github-profile-trophy.vercel.app/?username=abhaycore\&theme=darkhub\&no-frame=true\&margin-w=15)](https://github.com/abhaycore?tab=repositories)
+<!-- REPO-LIST:START -->
+
+<!-- REPO-LIST:END -->
+
 
 
 ### ✍️ Random Dev Quote
