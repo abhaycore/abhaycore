@@ -1,0 +1,43 @@
+name: Update README
+
+on:
+schedule:
+- cron: "0 */12 * * *"
+workflow_dispatch:
+
+jobs:
+update-readme:
+runs-on: ubuntu-latest
+
+```
+steps:
+  - name: Checkout
+    uses: actions/checkout@v3
+
+  - name: Generate Repo List
+    run: |
+      echo "# 🚀 Latest Repositories" > repos.md
+      echo "" >> repos.md
+
+      curl -s https://api.github.com/users/abhaycore/repos?sort=updated | jq -r '.[] | "- [\(.name)](\(.html_url))"' >> repos.md
+
+  - name: Inject into README
+    run: |
+      awk '
+      BEGIN {p=1}
+      /<!-- REPO-LIST:START -->/ {print; system("cat repos.md"); p=0; next}
+      /<!-- REPO-LIST:END -->/ {p=1}
+      p
+      ' README.md > README_NEW.md
+
+      mv README_NEW.md README.md
+
+  - name: Commit Changes
+    run: |
+      git config --global user.name "github-actions"
+      git config --global user.email "actions@github.com"
+
+      git add .
+      git commit -m "Auto update README" || exit 0
+      git push
+```
