@@ -13,12 +13,12 @@
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=abhaycore&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://streak-stats.demolab.com/?user=abhaycore&theme=github_dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=abhaycore&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
 # 📈 Contribution Graph
 
 [![Abhay's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=abhaycore\&bg_color=0d1117\&color=58a6ff\&line=38bdae\&point=fafafa\&area=true\&hide_border=true)](https://github.com/abhaycore)
-
-![](https://streak-stats.demolab.com/?user=abhaycore&theme=github_dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=abhaycore&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 # 🚀 Projects & Work
 
@@ -33,8 +33,5 @@
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
 
-
----
-[![](https://komarev.com/ghpvc/?username=abhaycore&icon=3&color=13)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
