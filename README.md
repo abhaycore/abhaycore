@@ -1,6 +1,14 @@
 # About Me:
 ## Hi, I'm Abhay Singh Chouhan 
-<br>A passionate tech creator focused on Embedded Systems, PCB Design, Arduino, IoT, and creative software development. I love building projects that blend hardware with intelligent and interactive software experiences. From gesture-controlled systems to futuristic games and automation tools, I enjoy turning ideas into real-world tech.<br><br>Currently exploring advanced embedded development, system design, and innovative human-computer interaction projects while continuously improving my coding and problem-solving skills.<br><br>## About Me<br><br>* B.Tech student at SRM Institute of Science and Technology (SRMIST)<br>* Interested in Embedded Systems, PCB Design, Arduino, and IoT<br>* Passionate about building hardware + software integrated projects<br>* Exploring automation systems, gesture-controlled interfaces, and smart technologies<br>* Experienced with creative coding and interactive project development<br>* Continuously learning modern tools, technologies, and development workflows<br>* Focused on improving problem-solving, development, and system design skills<br>
+<br>A passionate tech creator focused on Embedded Systems, PCB Design, Arduino, IoT, and creative software development. I love building projects that blend hardware with intelligent and interactive software experiences. From gesture-controlled systems to futuristic games and automation tools, I enjoy turning ideas into real-world tech.<br><br>Currently exploring advanced embedded development, system design, and innovative human-computer interaction projects while continuously improving my coding and problem-solving skills.<br><br>
+## About Me<br><br>
+B.Tech student at SRM Institute of Science and Technology (SRMIST)<br>
+* Interested in Embedded Systems, PCB Design, Arduino, and IoT<br>
+* Passionate about building hardware + software integrated projects<br>
+* Exploring automation systems, gesture-controlled interfaces, and smart technologies<br>
+* Experienced with creative coding and interactive project development<br>
+Continuously learning modern tools, technologies, and development workflows<br>
+Focused on improving problem-solving, development, and system design skills<br>
 
 
 ## 🌐 Socials:
