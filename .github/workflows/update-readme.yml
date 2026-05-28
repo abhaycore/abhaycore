@@ -2,8 +2,11 @@ name: Update README
 
 on:
 schedule:
-- cron: "0 */12 * * *"
+- cron: "0 */6 * * *"
 workflow_dispatch:
+
+permissions:
+contents: write
 
 jobs:
 update-readme:
@@ -11,33 +14,42 @@ runs-on: ubuntu-latest
 
 ```
 steps:
-  - name: Checkout
+  - name: Checkout repository
     uses: actions/checkout@v3
 
-  - name: Generate Repo List
+  - name: Generate repository list
+    env:
+      USERNAME: abhaycore
     run: |
-      echo "# 🚀 Latest Repositories" > repos.md
-      echo "" >> repos.md
+      echo "# 🚀 Repositories" > repo-list.md
+      echo "" >> repo-list.md
 
-      curl -s https://api.github.com/users/abhaycore/repos?sort=updated | jq -r '.[] | "- [\(.name)](\(.html_url))"' >> repos.md
+      curl -s "https://api.github.com/users/$USERNAME/repos?per_page=100&sort=updated" \
+      | jq -r '.[] | "- [\(.name)](\(.html_url))"' \
+      >> repo-list.md
 
-  - name: Inject into README
+  - name: Update README
     run: |
-      awk '
-      BEGIN {p=1}
-      /<!-- REPO-LIST:START -->/ {print; system("cat repos.md"); p=0; next}
-      /<!-- REPO-LIST:END -->/ {p=1}
-      p
-      ' README.md > README_NEW.md
+      python << EOF
+      from pathlib import Path
 
-      mv README_NEW.md README.md
+      readme = Path("README.md").read_text()
+      repos = Path("repo-list.md").read_text()
 
-  - name: Commit Changes
+      start = "<!-- REPO-LIST:START -->"
+      end = "<!-- REPO-LIST:END -->"
+
+      new_readme = readme.split(start)[0] + start + "\n" + repos + "\n" + end + readme.split(end)[1]
+
+      Path("README.md").write_text(new_readme)
+      EOF
+
+  - name: Commit and Push
     run: |
-      git config --global user.name "github-actions"
-      git config --global user.email "actions@github.com"
+      git config user.name "github-actions"
+      git config user.email "github-actions@github.com"
 
-      git add .
-      git commit -m "Auto update README" || exit 0
+      git add README.md
+      git commit -m "Auto-update repository list" || exit 0
       git push
 ```
