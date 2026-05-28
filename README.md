@@ -15,12 +15,14 @@
 ![](https://streak-stats.demolab.com/?user=abhaycore&theme=github_dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=abhaycore&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-# 🚀 Repositories
+# 🚀 Projects & Work
 
-<!-- REPO-LIST:START -->
-
-<!-- REPO-LIST:END -->
-
+* [GestureMouse-Pro](https://github.com/abhaycore/GestureMouse-Pro)
+* [StudyAI](https://github.com/abhaycore/StudyAI)
+* [tower-of-hanoi-ai](https://github.com/abhaycore/tower-of-hanoi-ai)
+* [NeonPongX](https://github.com/abhaycore/NeonPongX)
+* [sudoku-solver-ai](https://github.com/abhaycore/sudoku-solver-ai)
+* [Pocket-Pilot-APP](https://github.com/abhaycore/Pocket-Pilot-APP)
 
 
 ### ✍️ Random Dev Quote
